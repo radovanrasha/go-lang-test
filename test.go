@@ -27,4 +27,16 @@ func main(){ //just one main function in app
 	scoreTwo := 25.5 //float64 because float64 is default
 
 	fmt.Println(numOne, numTwo, scoreOne, scoreTwo)
+
+	fmt.Printf("Hello world\nMy name is %v and my age is %v\n", name, age) // it does not add new row without \n
+	fmt.Printf("Hello world\nMy name is %q and my age is %v\n", name, age) // %q adds quotes around strings
+	fmt.Printf("age is of type %T\n", age) // %q adds quotes around strings
+	// %f for float
+	// %0.2f for float with limit on decimal points
+	// %v for variable
+
+	// save formatted string
+	var str = fmt.Sprintf("Hello world. My name is %v and my age is %v\n", name, age)
+
+	fmt.Println("saved string",str)
 }
