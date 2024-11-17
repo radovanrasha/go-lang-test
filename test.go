@@ -2,7 +2,7 @@ package main // this means go makes executable from this file
 
 import "fmt" // package from go
 
-func main(){ //just one main function in app
+func testmain(){ //just one main function in app
 
 	var name string = "Radovan" // explicitly giving type
 	var username = "radovanrasha" // implicitly giving type
